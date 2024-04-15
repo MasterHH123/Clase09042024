@@ -1,0 +1,14 @@
+name: Work T7 Horacio
+on: [push]
+branches:
+  - test_1
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print 1
+      run: echo "Hello!!!"
+    - name: Print 2
+      run: echo "2nd Hello!!!"
+    - name: Print 3
+      run: echo "3rd Hello!!!"
